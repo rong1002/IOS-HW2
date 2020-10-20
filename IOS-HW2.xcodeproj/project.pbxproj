@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91AE02F7253D5CB700194D45 /* music.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 91AE02F6253D5CB700194D45 /* music.mp4 */; };
+		91AE02FC253D5D7E00194D45 /* musicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AE02FB253D5D7E00194D45 /* musicView.swift */; };
+		91B8895825389CE20027E4C4 /* ResurrectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B8895725389CE20027E4C4 /* ResurrectionView.swift */; };
+		91B8895D25389D250027E4C4 /* GoldenSongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B8895C25389D250027E4C4 /* GoldenSongView.swift */; };
 		91BD40D3252EDDAE00C9B2DE /* IOS_HW2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BD40D2252EDDAE00C9B2DE /* IOS_HW2App.swift */; };
 		91BD40D5252EDDAE00C9B2DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BD40D4252EDDAE00C9B2DE /* ContentView.swift */; };
 		91BD40D7252EDDB200C9B2DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91BD40D6252EDDB200C9B2DE /* Assets.xcassets */; };
 		91BD40DA252EDDB200C9B2DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91BD40D9252EDDB200C9B2DE /* Preview Assets.xcassets */; };
 		91BD40E5252EDDB500C9B2DE /* IOS_HW2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BD40E4252EDDB500C9B2DE /* IOS_HW2Tests.swift */; };
 		91BD40F0252EDDB500C9B2DE /* IOS_HW2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BD40EF252EDDB500C9B2DE /* IOS_HW2UITests.swift */; };
+		91BEE9A32532C7520062A387 /* TeacherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BEE9A22532C7520062A387 /* TeacherView.swift */; };
+		91BEE9B52532CD180062A387 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BEE9B42532CD180062A387 /* HomeView.swift */; };
+		91BEE9C7253304A90062A387 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BEE9C6253304A90062A387 /* data.swift */; };
+		91DBFB6F253DE48F00D74F05 /* jf-openhuninn-1.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DBFB6E253DE48F00D74F05 /* jf-openhuninn-1.1.ttf */; };
+		91DBFB7B253DE95400D74F05 /* Rich@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91DBFB77253DE95300D74F05 /* Rich@2x.png */; };
+		91DBFB7D253DE95400D74F05 /* Rich@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91DBFB79253DE95400D74F05 /* Rich@3x.png */; };
+		91DBFB85253DEAD400D74F05 /* PicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DBFB84253DEAD400D74F05 /* PicView.swift */; };
+		91E644A5253421C10048B15C /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E644A4253421C10048B15C /* TeamView.swift */; };
+		91FF1DB2253F235D00FA6629 /* Rap@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91FF1DB1253F235D00FA6629 /* Rap@3x.png */; };
+		91FF1DBA253F236E00FA6629 /* Rap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91FF1DB9253F236E00FA6629 /* Rap@2x.png */; };
+		91FF1DCA253F253A00FA6629 /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91FF1DC9253F253A00FA6629 /* crayon_1-1.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91AE02F6253D5CB700194D45 /* music.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.mp4; sourceTree = "<group>"; };
+		91AE02FB253D5D7E00194D45 /* musicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicView.swift; sourceTree = "<group>"; };
+		91B8895725389CE20027E4C4 /* ResurrectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResurrectionView.swift; sourceTree = "<group>"; };
+		91B8895C25389D250027E4C4 /* GoldenSongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenSongView.swift; sourceTree = "<group>"; };
 		91BD40CF252EDDAE00C9B2DE /* IOS-HW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-HW2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91BD40D2252EDDAE00C9B2DE /* IOS_HW2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_HW2App.swift; sourceTree = "<group>"; };
 		91BD40D4252EDDAE00C9B2DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +64,18 @@
 		91BD40EB252EDDB500C9B2DE /* IOS-HW2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-HW2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91BD40EF252EDDB500C9B2DE /* IOS_HW2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_HW2UITests.swift; sourceTree = "<group>"; };
 		91BD40F1252EDDB500C9B2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91BEE9A22532C7520062A387 /* TeacherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherView.swift; sourceTree = "<group>"; };
+		91BEE9B42532CD180062A387 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		91BEE9C6253304A90062A387 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		91DBFB6E253DE48F00D74F05 /* jf-openhuninn-1.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-openhuninn-1.1.ttf"; sourceTree = "<group>"; };
+		91DBFB77253DE95300D74F05 /* Rich@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rich@2x.png"; sourceTree = "<group>"; };
+		91DBFB79253DE95400D74F05 /* Rich@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rich@3x.png"; sourceTree = "<group>"; };
+		91DBFB84253DEAD400D74F05 /* PicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicView.swift; sourceTree = "<group>"; };
+		91E05A4B25348B2C008BDA8C /* twicon.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = twicon.otf; sourceTree = "<group>"; };
+		91E644A4253421C10048B15C /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		91FF1DB1253F235D00FA6629 /* Rap@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rap@3x.png"; sourceTree = "<group>"; };
+		91FF1DB9253F236E00FA6629 /* Rap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rap@2x.png"; sourceTree = "<group>"; };
+		91FF1DC9253F253A00FA6629 /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "crayon_1-1.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +126,24 @@
 		91BD40D1252EDDAE00C9B2DE /* IOS-HW2 */ = {
 			isa = PBXGroup;
 			children = (
+				91DBFB77253DE95300D74F05 /* Rich@2x.png */,
+				91FF1DC9253F253A00FA6629 /* crayon_1-1.ttf */,
+				91DBFB79253DE95400D74F05 /* Rich@3x.png */,
+				91FF1DB9253F236E00FA6629 /* Rap@2x.png */,
+				91FF1DB1253F235D00FA6629 /* Rap@3x.png */,
+				91DBFB6E253DE48F00D74F05 /* jf-openhuninn-1.1.ttf */,
+				91AE02F6253D5CB700194D45 /* music.mp4 */,
+				91E05A4B25348B2C008BDA8C /* twicon.otf */,
 				91BD40D2252EDDAE00C9B2DE /* IOS_HW2App.swift */,
 				91BD40D4252EDDAE00C9B2DE /* ContentView.swift */,
+				91AE02FB253D5D7E00194D45 /* musicView.swift */,
+				91BEE9B42532CD180062A387 /* HomeView.swift */,
+				91E644A4253421C10048B15C /* TeamView.swift */,
+				91BEE9C6253304A90062A387 /* data.swift */,
+				91B8895C25389D250027E4C4 /* GoldenSongView.swift */,
+				91DBFB84253DEAD400D74F05 /* PicView.swift */,
+				91B8895725389CE20027E4C4 /* ResurrectionView.swift */,
+				91BEE9A22532C7520062A387 /* TeacherView.swift */,
 				91BD40D6252EDDB200C9B2DE /* Assets.xcassets */,
 				91BD40DB252EDDB200C9B2DE /* Info.plist */,
 				91BD40D8252EDDB200C9B2DE /* Preview Content */,
@@ -233,7 +280,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91FF1DCA253F253A00FA6629 /* crayon_1-1.ttf in Resources */,
+				91DBFB6F253DE48F00D74F05 /* jf-openhuninn-1.1.ttf in Resources */,
+				91DBFB7D253DE95400D74F05 /* Rich@3x.png in Resources */,
+				91FF1DBA253F236E00FA6629 /* Rap@2x.png in Resources */,
+				91DBFB7B253DE95400D74F05 /* Rich@2x.png in Resources */,
+				91FF1DB2253F235D00FA6629 /* Rap@3x.png in Resources */,
 				91BD40DA252EDDB200C9B2DE /* Preview Assets.xcassets in Resources */,
+				91AE02F7253D5CB700194D45 /* music.mp4 in Resources */,
 				91BD40D7252EDDB200C9B2DE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +314,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				91BD40D5252EDDAE00C9B2DE /* ContentView.swift in Sources */,
+				91DBFB85253DEAD400D74F05 /* PicView.swift in Sources */,
+				91B8895825389CE20027E4C4 /* ResurrectionView.swift in Sources */,
+				91B8895D25389D250027E4C4 /* GoldenSongView.swift in Sources */,
+				91BEE9C7253304A90062A387 /* data.swift in Sources */,
+				91BEE9B52532CD180062A387 /* HomeView.swift in Sources */,
 				91BD40D3252EDDAE00C9B2DE /* IOS_HW2App.swift in Sources */,
+				91E644A5253421C10048B15C /* TeamView.swift in Sources */,
+				91AE02FC253D5D7E00194D45 /* musicView.swift in Sources */,
+				91BEE9A32532C7520062A387 /* TeacherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

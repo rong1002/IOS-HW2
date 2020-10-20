@@ -1,16 +1,43 @@
-//
-//  ContentView.swift
-//  IOS-HW2
-//
-//  Created by Lin Bo Rong on 2020/10/8.
-//
-
 import SwiftUI
+import AVFoundation
 
 struct ContentView: View {
+    let player = AVPlayer()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack{
+            TabView {
+                HomeView()
+                    .tabItem {
+                        Image(systemName: "house.fill")
+                        Text("首頁")
+                    }
+                TeacherView()
+                    .tabItem {
+                        Image(systemName: "person.3.fill")
+                        Text("導師介紹")
+                }
+                TeamView()
+                    .tabItem {
+                        Image(systemName: "music.house.fill")
+                        Text("戰隊")
+                }
+                SongView()
+                    .tabItem {
+                        Image(systemName: "music.note.list")
+                        Text("歌曲")
+                    }
+                PicView()
+                    .tabItem {
+                        Image(systemName: "globe")
+                        Text("封面")
+                    }
+            }
+            .accentColor(.orange)
+            
+            musicView()
+                .offset(y:-390)
+        }
     }
 }
 
