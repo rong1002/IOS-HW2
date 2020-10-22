@@ -10,6 +10,7 @@ struct TeachersImage: View {
             .frame(width: 120, height: 120)
             .clipShape(Circle())
             .overlay(Circle().stroke(Color.white, lineWidth: 4))
+            .shadow(radius: 10)
     }
 }
 struct episodesList: View {
@@ -39,16 +40,15 @@ struct HomeView: View {
                 Section(header: Text("導師列表")){
                     ScrollView(.horizontal) {
                         LazyHStack(spacing: 10.0) {
-                            ForEach(teachers.indices){ (item) in
-                                NavigationLink(destination: TeacherintroductionView(image: teachers[item].image, name: teachers[item].name, description: teachers[item].description)){
-                                    TeachersImage(name: teachers[item].image)
+                            ForEach(teachers){ (teacher) in
+                                NavigationLink(destination: TeacherintroductionView(image: teacher.image, name: teacher.name, description: teacher.description)){
+                                    TeachersImage(name: teacher.image)
                                 }
                             }
                         }
                         .frame(height: 200)
                     }
                 }
-
                 Section(header: Text("劇集列表")){
                     ForEach(episodes.indices){ (item) in
                         Link(destination: URL(string: episodes[item].url)!, label: {

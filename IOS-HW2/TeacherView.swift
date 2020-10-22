@@ -31,14 +31,8 @@ struct TeacherintroductionView: View {
             }
         }
         .animation(.easeInOut(duration:1.3))
-        .onAppear {
-            self.pics = true
-                
-        }
-        .onDisappear {
-            self.pics = false
-            
-        }
+        .onAppear {pics = true}
+        .onDisappear {pics = false}
     }
 }
 

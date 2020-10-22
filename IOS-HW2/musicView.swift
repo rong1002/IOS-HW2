@@ -36,7 +36,7 @@ struct musicView: View {
                 play.toggle()
                 if play{
                     player.pause()
-                    let utterance =  AVSpeechUtterance(string: "正在暫停")
+                    let utterance =  AVSpeechUtterance(string: "暫停中")
                     utterance.voice = AVSpeechSynthesisVoice(language: "zh-TW")
                     let synthesizer = AVSpeechSynthesizer()
                     synthesizer.speak(utterance)

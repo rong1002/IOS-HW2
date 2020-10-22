@@ -1,6 +1,7 @@
 import SwiftUI
 
-struct Teacher {
+struct Teacher: Identifiable {
+    var id = UUID()
     var image: String
     var name: String
     var description: String
